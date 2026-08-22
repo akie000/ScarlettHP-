@@ -190,13 +190,22 @@
         <li class="flex gap-3 nav-zh hidden"><span>✓</span> <span>定期更新专业知识</span></li>
        </ul>
       </div>
-      <div class="p-8 rounded-2xl text-center" style="background: rgba(255,255,255,0.6); border: 1px solid rgba(0,0,0,0.05);"><i data-lucide="award" class="w-20 h-20 mx-auto mb-6 opacity-40"></i>
+      <div class="p-8 rounded-2xl text-center relative overflow-hidden bg-cover bg-center" style="background-image: url('image/Dr.Recella.jpg'); border: 1px solid rgba(0,0,0,0.05);">
+      <!-- 文字を見やすくするための白透過フィルター -->
+      <div class="absolute inset-0 bg-white/80" aria-hidden="true"></div>
+
+      <!-- コンテンツ部分（手前に表示させるため relative z-10 を追加） -->
+      <div class="relative z-10">
+       <i data-lucide="award" class="w-20 h-20 mx-auto mb-6 opacity-40"></i>
        <h5 class="font-semibold text-xl mb-2 nav-ja">Dr. Recella ADS認定サロン</h5>
        <h5 class="font-semibold text-xl mb-2 nav-en hidden">Dr. Recella ADS Certified Salon</h5>
        <h5 class="font-semibold text-xl mb-2 nav-zh hidden">Dr. Recella ADS 认定沙龙</h5>
        <p class="text-sm opacity-70 mb-6 nav-ja">医師開発の高機能コスメ「Dr. Recella」のADS認定ディーラーサロンです。</p>
        <p class="text-sm opacity-70 mb-6 nav-en hidden">Official ADS certified dealer salon for "Dr. Recella," a high-performance cosmetic developed by physicians.</p>
-       <p class="text-sm opacity-70 mb-6 nav-zh hidden">本店是医师研发的高机能化妆品"Dr. Recella"的ADS认定经销沙龙。</p><a href="https://www.recella3d.com/guide/concept.php" target="_blank" rel="noopener noreferrer" class="px-6 py-2 rounded-full text-sm font-medium border border-current transition-all hover:opacity-60 nav-ja inline-block">詳しく見る</a> <a href="https://www.recella3d.com/guide/concept.php" target="_blank" rel="noopener noreferrer" class="px-6 py-2 rounded-full text-sm font-medium border border-current transition-all hover:opacity-60 nav-en hidden inline-block">Learn More</a> <a href="https://www.recella3d.com/guide/concept.php" target="_blank" rel="noopener noreferrer" class="px-6 py-2 rounded-full text-sm font-medium border border-current transition-all hover:opacity-60 nav-zh hidden inline-block">了解详情</a>
+       <p class="text-sm opacity-70 mb-6 nav-zh hidden">本店是医师研发的高机能化妆品"Dr. Recella"的ADS认定经销沙龙。</p>
+       <a href="https://www.recella3d.com/guide/concept.php" target="_blank" rel="noopener noreferrer" class="px-6 py-2 rounded-full text-sm font-medium border border-current transition-all hover:opacity-60 nav-ja inline-block">詳しく見る</a> 
+       <a href="https://www.recella3d.com/guide/concept.php" target="_blank" rel="noopener noreferrer" class="px-6 py-2 rounded-full text-sm font-medium border border-current transition-all hover:opacity-60 nav-en hidden inline-block">Learn More</a> 
+       <a href="https://www.recella3d.com/guide/concept.php" target="_blank" rel="noopener noreferrer" class="px-6 py-2 rounded-full text-sm font-medium border border-current transition-all hover:opacity-60 nav-zh hidden inline-block">了解详情</a>
       </div>
      </div>
     </div>
